@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Location Service for Wanderly
 export class LocationService {
   constructor() {
@@ -187,54 +185,5 @@ export class LocationService {
 // Create a singleton instance
 export const locationService = new LocationService();
 
-// Hook for React components
-export const useLocation = () => {
-  const [location, setLocation] = React.useState(null);
-  const [loading, setLoading] = React.useState(false);
-  const [error, setError] = React.useState(null);
-
-  const getLocation = async () => {
-    setLoading(true);
-    setError(null);
-    
-    try {
-      const loc = await locationService.getCurrentLocation();
-      setLocation(loc);
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const watchLocation = (callback) => {
-    return locationService.watchLocation((loc, err) => {
-      if (loc) {
-        setLocation(loc);
-        if (callback) callback(loc);
-      } else if (err) {
-        setError(err.message);
-      }
-    });
-  };
-
-  const stopWatching = () => {
-    locationService.stopWatchingLocation();
-  };
-
-  React.useEffect(() => {
-    return () => {
-      stopWatching();
-    };
-  }, []);
-
-  return {
-    location,
-    loading,
-    error,
-    getLocation,
-    watchLocation,
-    stopWatching,
-    isAvailable: locationService.isLocationAvailable()
-  };
-};
+// Note: React hooks should be defined in React components, not in service files
+// If you need location hooks, create them in your React components using this service
