@@ -31,8 +31,8 @@ This project was built as part of the Smart India Hackathon by **Team Hexahive**
 
 | Name               | Role                   | GitHub Profile                                     | LinkedIn Profile                                       |
 | ------------------ | ---------------------- | -------------------------------------------------- | ------------------------------------------------------ |
-| **Toysha Jain** | Role   | [GitHub](https://github.com/jaintoysha24) | [LinkedIn]()  |
-| **Kaustubh Patel** | Role    | [their-github-id]()    | [their-linkedin-id]()  |
-| **Rachit Neema** | Role | [GitHub](https://github.com/Rachitneema03)    | [LinkedIn]()    |
-| **Sumedha Mandloi**| Role   | [GitHub](https://github.com/sumedhamandloi) | [LinkedIn]()  |
+| **Toysha Jain** | Role   | [GitHub](https://github.com/jaintoysha24) | [LinkedIn](https://www.linkedin.com/in/toysha-jain-bb854733a/)  |
+| **Kaustubh Patel** | Role    | [GitHub](https://github.com/KAUSTUBH6006)    | [LinkedIn](www.linkedin.com/in/kaustubh9565/)  |
+| **Rachit Neema** | Role | [GitHub](https://github.com/Rachitneema03)    | [LinkedIn](https://www.linkedin.com/in/rachit-neema/)    |
+| **Sumedha Mandloi**| Role   | [GitHub](https://github.com/sumedhamandloi) | [LinkedIn](https://www.linkedin.com/in/sumedha-mandloi/)  |
 
